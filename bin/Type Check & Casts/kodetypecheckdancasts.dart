@@ -1,0 +1,32 @@
+class Employee {
+  String name;
+  Employee(this.name);
+}
+
+class Manager extends Employee {
+  Manager(String name) : super(name);
+}
+
+class VicePresident extends Manager {
+  VicePresident(String name) : super(name);
+}
+
+void sayHello(Employee employee) {
+  if (employee is VicePresident) {
+    print('Hello Vice President ${employee.name}');
+  } else if (employee is Manager) {
+    print('Hello Manager ${employee.name}');
+  } else {
+    print('Hello ${employee.name}');
+  }
+}
+
+void main() {
+  var emp = Employee('irfan');
+  var man = Manager('ivenk');
+  var vp = VicePresident('irfan');
+
+  sayHello(emp);
+  sayHello(man);
+  sayHello(vp);
+}
