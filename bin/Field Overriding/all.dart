@@ -1,6 +1,6 @@
 //Kode Field Overriding
 class Person{
-  String name = 'irfan';
+  String name = 'rio';
 
   void sayHello(String name){
     print('Hello ${name}, my name is ${this.name}');
@@ -8,11 +8,11 @@ class Person{
 }
 
 class OtherPerson extends Person{
-  String name = 'Irfan Hadi';
+  String name = 'rio dwipratama';
 }
 
 //Kode Mengakses Field Overriding
 void main(){
   var person = OtherPerson();
-  person.sayHello('irfan');
+  person.sayHello('rio');
 }

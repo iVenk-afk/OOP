@@ -1,6 +1,6 @@
 void main(){
   try{
-    //Validation.validate('irfan', 'salah');
+    //Validation.validate('Rio', 'salah');
  // } on ValidationException catch (exception, stackTrace){
     //print('Error : ${exception.message}');
     //print('Stack Trace : ${stackTrace.toString()}');

@@ -15,12 +15,12 @@ class Manager extends Employee{
 
 //Kode Polymorphism
    //void main(){
-    //Employee employee = Employee('irfan');
+    //Employee employee = Employee('Rio');
     //print(employee);
-    //employee = Manager('ivenk');
+    //employee = Manager('yoo');
     //print(employee);
 
-    //employee =VicePresident('irfan');
+    //employee =VicePresident('rio');
     //print(employee);
   //}
 
@@ -30,8 +30,8 @@ class Manager extends Employee{
 }
 
 void main(){
-sayHello(Employee('irfan'));
-sayHello(Manager('ivenk'));
-sayHello(VicePresident('Irfan Hadi'));
+sayHello(Employee('rio'));
+sayHello(Manager('yoo'));
+sayHello(VicePresident('Rio dwipratama'));
 }
 

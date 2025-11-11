@@ -9,7 +9,7 @@ class Person{
   Person.withAddress(String address) : this('', address);
 
 //Menggunkan Named Constructor
-  var person = Person.withName("irfan hadi");
+  var person = Person.withName("RIO DWIPRATAMA");
   var person2 = Person.withAddress("Banjarmasin");
-  var person3 = Person("irfan hadi","Banjarmasin");
+  var person3 = Person("RIO DWIPRATAMA","Banjarmasin");
 }

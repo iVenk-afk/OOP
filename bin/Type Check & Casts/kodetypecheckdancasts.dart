@@ -22,9 +22,9 @@ void sayHello(Employee employee) {
 }
 
 void main() {
-  var emp = Employee('irfan');
-  var man = Manager('ivenk');
-  var vp = VicePresident('irfan');
+  var emp = Employee('Rio');
+  var man = Manager('Yoo');
+  var vp = VicePresident('Rio');
 
   sayHello(emp);
   sayHello(man);

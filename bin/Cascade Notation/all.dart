@@ -7,17 +7,17 @@ class User{
 
 //void main(){
   //var user = User();
-  //user.username = "ivenk";
-  //user.name = "Irfan Hadi";
-  //user.email = "hadiirfan115@gmail.com";
+  //user.username = "yoo";
+  //user.name = "Rio dwipratama";
+  //user.email = "dwipratamario08@gmail.com";
 //}
 
 //Mnggunakan Cascade Notation
 //void main(){
   //var user = User()
-  //..username = "ivenk"
-  //..name = "Irfan Hadi"
-  //..email = "hadiirfan115@gmail.com";
+  //..username = "yoo"
+  //..name = "Rio dwipratama"
+  //..email = "dwipratamario08@gmail.com";
 //}
 
 //Kode Nullable Cascade Notation
@@ -27,8 +27,8 @@ User? createUser(){
 
 void main(){
   User? user = createUser()
-  ?..username = 'ivenk'
-  ..name = 'Irfan Hadi'
-  ..email = 'hadiirfan115@gmail.com';
+  ?..username = 'yoo'
+  ..name = 'Rio dwipratama'
+  ..email = 'dwipratamario@gmail.com';
 
 }

@@ -17,10 +17,10 @@ class VicePresident extends Manager {
 //Kode Mengakses Method Overriding
 void main(){
   var manager = Manager();
-  manager.name = 'ivenk';
-  manager.sayHello('irfan');
+  manager.name = 'YOO';
+  manager.sayHello('RIO');
 
   var vp = VicePresident();
-  vp.name = 'ivenk';
-  vp.sayHello('irfan');
+  vp.name = 'YOO';
+  vp.sayHello('RIO');
 }

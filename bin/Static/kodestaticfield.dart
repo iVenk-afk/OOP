@@ -1,6 +1,6 @@
 class Aplication{
-  static final String author = 'Irfan Hadi';
-  static final String name = 'Tuhan, Aku dan Tebing';
+  static final String author = 'Rio dwipratama';
+  static final String name = 'Tuhan, Aku dan alam';
 }
 
 void main(){

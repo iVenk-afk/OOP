@@ -8,6 +8,6 @@ class Person {
 
 void main() {
   var person = Person();
-  person.name = "Irfan";
-  person.sayHello("IVENK");
+  person.name = "RIO";
+  person.sayHello("YOO");
 }

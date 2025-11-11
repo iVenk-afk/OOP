@@ -1,6 +1,6 @@
 import 'data/category.dart';
 void main(){
-  var category1 = Category('1', 'Burung');
+  var category1 = Category('1', 'ikan');
   print(category1.hashCode);
 
   var category2 = Category('1', 'Ular');

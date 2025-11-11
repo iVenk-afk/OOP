@@ -1,6 +1,6 @@
 //Kode Membuat Constructor
 class Person{
-  String name ="irfan";
+  String name ="rio";
   String? address;
   final String country = "Banjarmasin";
 
@@ -14,8 +14,8 @@ class Person{
 }
 //Menggunkan Constructor
 void main(){
-var person = Person("irfan", "Banjarmasin");
+var person = Person("Rio", "Banjarmasin");
 
-person.name = "irfan";
-person.sayHello("ivenk");
+person.name = "rio";
+person.sayHello("yoo");
 }

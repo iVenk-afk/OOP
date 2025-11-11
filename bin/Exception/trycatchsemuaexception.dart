@@ -1,6 +1,6 @@
 void main(){
   try {
-    //Validation.validate('irfan', 'salah');
+    //Validation.validate('Rio', 'salah');
   //} on ValidationException catch (exception){
     //print('Error : ${exception.message}');
   } catch (exception){

@@ -1,6 +1,6 @@
 import 'data/customer.dart';
 void main(){
-  var customer = Customer('irfan', CustomerLevel.vip);
+  var customer = Customer('Rio', CustomerLevel.vip);
 
   print(customer.name);
   print(customer.level);

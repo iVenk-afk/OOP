@@ -14,9 +14,9 @@ class VicePersident extends Manager{
 
 //Kode Menggunakan Super Constructor
 void main() {
-  var manager = Manager('Ivenk');
-  //manager.sayHello('Irfan');
+  var manager = Manager('yoo');
+  //manager.sayHello('Rio');
 
-  //var vp = VicePresident('Irfan');
-  //vp.sayHello('Ivenk');
+  //var vp = VicePresident('Rio');
+  //vp.sayHello('yoo');
 }

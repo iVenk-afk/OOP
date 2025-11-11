@@ -11,6 +11,6 @@ extension GoodByeOnPerson on Person {
 // Menggunakan Extension Method
 void main() {
   var person = Person();
-  person.name = "Irfan";
-  person.sayGoodBye("Ivenk");
+  person.name = "Rio";
+  person.sayGoodBye("yoo");
 }
